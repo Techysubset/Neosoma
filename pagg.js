@@ -128,3 +128,5 @@ function submitEvaluation() {
   }
   closeSheet();
 }
+
+initBodyPoints();
