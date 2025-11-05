@@ -20,8 +20,8 @@ const bodyParts = [
   { id: "pie-izq", label: "Pie Izquierdo", x: 130, y: 400 },
   { id: "pie-der", label: "Pie Derecho", x: 170, y: 400 },
 ];
-const button = document.querySelector("btn_1");
-const button_2 = document.querySelector("btn_2");
+const button = document.querySelector("btn");
+const button_2 = document.querySelector("btn_outline");
 
 let selectedParts = [];
 
