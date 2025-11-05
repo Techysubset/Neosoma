@@ -100,23 +100,23 @@ h5 {
   font-size: 0.875rem;
 }
 
-.btn-primary {
+.btn_1 {
   background-color: #00d9ff;
   color: #000000;
   box-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
 }
 
-.btn-primary:hover {
+.btn_1:hover {
   background-color: #00c4ea;
 }
 
-.btn-outline {
+.btn_2 {
   background: transparent;
   border: 1px solid rgba(0, 217, 255, 0.5);
   color: #00d9ff;
 }
 
-.btn-outline:hover {
+.btn_2:hover {
   background-color: rgba(0, 217, 255, 0.1);
 }
 
@@ -212,6 +212,10 @@ h5 {
     rgba(37, 99, 235, 0.2)
   );
   backdrop-filter: blur(80px);
+}
+.hero-visual-bg img {
+  height: 404px;
+  width: 630px;
 }
 
 .hero-visual-orb {
