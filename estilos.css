@@ -46,9 +46,9 @@ h5 {
 
 /* Header */
 .header {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(0, 217, 255, 0.2);
+  border-bottom: 1px solid rgba(27, 181, 208, 0.2);
   position: sticky;
   top: 0;
   z-index: 40;
