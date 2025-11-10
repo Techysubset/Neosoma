@@ -373,35 +373,33 @@
           <p class="text-cyan-400 mb-4">Áreas seleccionadas:</p>
           <div class="selected-tags" id="selectedTags"></div>
         </div>
-
-        <p style="font-size: 0.875rem" class="text-gray-400 text-center">
-          Haz clic en los puntos cyan para seleccionar las áreas afectadas
-        </p>
       </div>
 
       <div class="sheet-content">
-        <button
-          class="btn btn-primary"
-          style="width: 100%"
-          onclick="submitEvaluation()"
-        >
-          Solicitar Evaluación
-          <svg
-            style="
-              display: inline-block;
-              width: 1rem;
-              height: 1rem;
-              margin-left: 0.5rem;
-              vertical-align: middle;
-            "
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
+        <a href="cita.html">
+          <button
+            class="btn btn-primary"
+            style="width: 100%"
+            onclick="submitEvaluation()"
           >
-            <path d="M5 12h14m-7-7 7 7-7 7"></path>
-          </svg>
-        </button>
+            Solicitar Evaluación
+            <svg
+              style="
+                display: inline-block;
+                width: 1rem;
+                height: 1rem;
+                margin-left: 0.5rem;
+                vertical-align: middle;
+              "
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M5 12h14m-7-7 7 7-7 7"></path>
+            </svg>
+          </button>
+        </a>
       </div>
     </div>
     <script src="pagg.js"></script>

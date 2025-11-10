@@ -13,6 +13,21 @@ body {
   color: #ffffff;
   line-height: 1.6;
 }
+#cajita {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center; /* centra verticalmente si hay altura */
+  gap: 10px; /* espacio entre label e input */
+  height: 100px; /* opcional, solo para mostrar el centrado vertical */
+}
+
+.email {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: right; /* centra verticalmente si hay altura */
+  gap: 10px; /* espacio entre label e input */
+  height: 100px; /* opcional, solo para mostrar el centrado vertical */
+}
 
 h1 {
   font-size: 1.875rem;
@@ -246,7 +261,10 @@ h5 {
 }
 
 .text-gray-400 {
-  color: #9ca3af;
+  color: #00d9ff;
+
+  font-size: 40px;
+  justify-content: center;
 }
 
 .text-cyan-400 {
