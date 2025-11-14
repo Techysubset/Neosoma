@@ -178,9 +178,9 @@ h5 {
 }
 
 /* Hero Section */
-.hero {
+/* .hero {
   position: relative;
-  overflow: hidden;
+  overflow: hi;
 }
 
 .hero-bg {
@@ -195,7 +195,7 @@ h5 {
 .hero-content {
   position: relative;
   z-index: 10;
-}
+} */
 
 .badge {
   display: inline-block;
@@ -229,8 +229,8 @@ h5 {
   backdrop-filter: blur(80px);
 }
 .hero-visual-bg img {
-  height: 404px;
-  width: 630px;
+  height: 100%;
+  width: auto;
 }
 
 .hero-visual-orb {
@@ -257,13 +257,12 @@ h5 {
 }
 
 .text-gray-300 {
-  color: #d1d5db;
+  color: white;
 }
 
 .text-gray-400 {
-  color: #00d9ff;
-
-  font-size: 40px;
+  color: #ffffff;
+  font-size: 20px;
   justify-content: center;
 }
 
@@ -272,7 +271,8 @@ h5 {
 }
 
 .text-white {
-  color: #ffffff;
+  color: #00d9ff;
+  font-size: 40px;
 }
 
 .mb-4 {
