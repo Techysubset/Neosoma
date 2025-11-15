@@ -16,9 +16,9 @@ body {
 #cajita {
   display: flex;
   justify-content: center; /* centra horizontalmente */
-  align-items: center; /* centra verticalmente si hay altura */
+  align-items: center;
   gap: 10px; /* espacio entre label e input */
-  height: 100px; /* opcional, solo para mostrar el centrado vertical */
+  height: 100px;
 }
 
 .email {
@@ -229,8 +229,8 @@ h5 {
   backdrop-filter: blur(80px);
 }
 .hero-visual-bg img {
-  width: 100%;
-  height: 100%;
+  width: 630px;
+  height: 600px;
   object-fit: cover;
   transition: opacity 0.4 ease-in-out
     /* background-image: url("images/abuela.jpeg"); /* Imagen inicial */
@@ -239,8 +239,10 @@ h5 {
   transition: background-image 0.5s ease-in-out; */ * /;
 }
 
-.hero-visual-bg img {
-  background-image: url("images/Actually.jpg");
+.hero-visual-bg:hover {
+  content: url("images/Abuela\ joven\ .jpeg");
+  width: 630px;
+  height: 600px;
 }
 
 .hero-visual-orb {
