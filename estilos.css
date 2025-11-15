@@ -229,8 +229,18 @@ h5 {
   backdrop-filter: blur(80px);
 }
 .hero-visual-bg img {
+  width: 100%;
   height: 100%;
-  width: auto;
+  object-fit: cover;
+  transition: opacity 0.4 ease-in-out
+    /* background-image: url("images/abuela.jpeg"); /* Imagen inicial */
+    /* background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out; */ * /;
+}
+
+.hero-visual-bg img {
+  background-image: url("images/Actually.jpg");
 }
 
 .hero-visual-orb {
