@@ -13,22 +13,6 @@ body {
   color: #ffffff;
   line-height: 1.6;
 }
-#cajita {
-  display: flex;
-  justify-content: center; /* centra horizontalmente */
-  align-items: center;
-  gap: 10px; /* espacio entre label e input */
-  height: 100px;
-  grid-column: auto;
-}
-
-.email {
-  display: flex;
-  justify-content: center; /* centra horizontalmente */
-  align-items: right; /* centra verticalmente si hay altura */
-  gap: 10px; /* espacio entre label e input */
-  height: 100px; /* opcional, solo para mostrar el centrado vertical */
-}
 
 h1 {
   font-size: 1.875rem;
@@ -196,7 +180,7 @@ h5 {
 .hero-content {
   position: relative;
   z-index: 10;
-} */
+}
 
 .badge {
   display: inline-block;
@@ -207,7 +191,7 @@ h5 {
   margin-bottom: 1rem;
   border: 1px solid rgba(0, 217, 255, 0.2);
   font-size: 0.875rem;
-}
+} */
 
 .hero-visual {
   position: relative;
@@ -231,18 +215,57 @@ h5 {
 }
 .hero-visual-bg img {
   width: 630px;
-  height: 830px;
+  height: 600px;
   object-fit: cover;
   transition: opacity 0.4 ease-in-out;
 }
 
 .hero-visual-bg:hover {
-  content: url("images/Kai.png");
+  content: url("images/Abuela\ joven\ .jpeg");
   width: 630px;
-  height: 500px;
+  height: 600px;
 }
 
 .hero-visual-orb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12rem;
+  height: 16rem;
+  background-color: rgba(0, 217, 255, 0.2);
+  border-radius: 9999px;
+  filter: blur(80px);
+  animation: pulse 3s ease-in-out infinite;
+}
+.hero-visual-2 {
+  position: relative;
+  height: 400px;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.hero-visual-2-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 217, 255, 0.2),
+    rgba(37, 99, 235, 0.2)
+  );
+  backdrop-filter: blur(80px);
+}
+.hero-visual-2-bg img {
+  width: 630px;
+  height: 600px;
+  object-fit: cover;
+  transition: opacity 0.4 ease-in-out;
+}
+
+.hero-visual-2-orb {
   position: absolute;
   top: 50%;
   left: 50%;
