@@ -19,7 +19,7 @@ body {
   align-items: center;
   gap: 10px; /* espacio entre label e input */
   height: 100px;
-  grid-column: auto;
+  flex-direction: column;
 }
 
 .email {
@@ -216,19 +216,6 @@ h5 {
   overflow: hidden;
 }
 
-.hero-visual-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(0, 217, 255, 0.2),
-    rgba(37, 99, 235, 0.2)
-  );
-  backdrop-filter: blur(80px);
-}
 .hero-visual-bg img {
   width: 630px;
   height: 830px;
